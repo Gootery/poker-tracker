@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B639CC9A2D093455008FDCE9 /* PokerTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CC992D093455008FDCE9 /* PokerTrackerApp.swift */; };
+		B639CC9C2D093455008FDCE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CC9B2D093455008FDCE9 /* ContentView.swift */; };
+		B639CC9E2D093458008FDCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B639CC9D2D093458008FDCE9 /* Assets.xcassets */; };
+		B639CCA22D093458008FDCE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B639CCA12D093458008FDCE9 /* Preview Assets.xcassets */; };
+		B639CCAC2D093458008FDCE9 /* PokerTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCAB2D093458008FDCE9 /* PokerTrackerTests.swift */; };
+		B639CCB62D093458008FDCE9 /* PokerTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCB52D093458008FDCE9 /* PokerTrackerUITests.swift */; };
+		B639CCB82D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCB72D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B639CCA82D093458008FDCE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B639CC8E2D093455008FDCE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B639CC952D093455008FDCE9;
+			remoteInfo = PokerTracker;
+		};
+		B639CCB22D093458008FDCE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B639CC8E2D093455008FDCE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B639CC952D093455008FDCE9;
+			remoteInfo = PokerTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B639CC962D093455008FDCE9 /* PokerTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B639CC992D093455008FDCE9 /* PokerTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTrackerApp.swift; sourceTree = "<group>"; };
+		B639CC9B2D093455008FDCE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B639CC9D2D093458008FDCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B639CC9F2D093458008FDCE9 /* PokerTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokerTracker.entitlements; sourceTree = "<group>"; };
+		B639CCA12D093458008FDCE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B639CCA72D093458008FDCE9 /* PokerTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B639CCAB2D093458008FDCE9 /* PokerTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTrackerTests.swift; sourceTree = "<group>"; };
+		B639CCB12D093458008FDCE9 /* PokerTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B639CCB52D093458008FDCE9 /* PokerTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTrackerUITests.swift; sourceTree = "<group>"; };
+		B639CCB72D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B639CC932D093455008FDCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B639CCA42D093458008FDCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B639CCAE2D093458008FDCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B639CC8D2D093455008FDCE9 = {
+			isa = PBXGroup;
+			children = (
+				B639CC982D093455008FDCE9 /* PokerTracker */,
+				B639CCAA2D093458008FDCE9 /* PokerTrackerTests */,
+				B639CCB42D093458008FDCE9 /* PokerTrackerUITests */,
+				B639CC972D093455008FDCE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B639CC972D093455008FDCE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B639CC962D093455008FDCE9 /* PokerTracker.app */,
+				B639CCA72D093458008FDCE9 /* PokerTrackerTests.xctest */,
+				B639CCB12D093458008FDCE9 /* PokerTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B639CC982D093455008FDCE9 /* PokerTracker */ = {
+			isa = PBXGroup;
+			children = (
+				B639CC992D093455008FDCE9 /* PokerTrackerApp.swift */,
+				B639CC9B2D093455008FDCE9 /* ContentView.swift */,
+				B639CC9D2D093458008FDCE9 /* Assets.xcassets */,
+				B639CC9F2D093458008FDCE9 /* PokerTracker.entitlements */,
+				B639CCA02D093458008FDCE9 /* Preview Content */,
+			);
+			path = PokerTracker;
+			sourceTree = "<group>";
+		};
+		B639CCA02D093458008FDCE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B639CCA12D093458008FDCE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B639CCAA2D093458008FDCE9 /* PokerTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B639CCAB2D093458008FDCE9 /* PokerTrackerTests.swift */,
+			);
+			path = PokerTrackerTests;
+			sourceTree = "<group>";
+		};
+		B639CCB42D093458008FDCE9 /* PokerTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B639CCB52D093458008FDCE9 /* PokerTrackerUITests.swift */,
+				B639CCB72D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift */,
+			);
+			path = PokerTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B639CC952D093455008FDCE9 /* PokerTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B639CCBB2D093458008FDCE9 /* Build configuration list for PBXNativeTarget "PokerTracker" */;
+			buildPhases = (
+				B639CC922D093455008FDCE9 /* Sources */,
+				B639CC932D093455008FDCE9 /* Frameworks */,
+				B639CC942D093455008FDCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerTracker;
+			productName = PokerTracker;
+			productReference = B639CC962D093455008FDCE9 /* PokerTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B639CCA62D093458008FDCE9 /* PokerTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B639CCBE2D093458008FDCE9 /* Build configuration list for PBXNativeTarget "PokerTrackerTests" */;
+			buildPhases = (
+				B639CCA32D093458008FDCE9 /* Sources */,
+				B639CCA42D093458008FDCE9 /* Frameworks */,
+				B639CCA52D093458008FDCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B639CCA92D093458008FDCE9 /* PBXTargetDependency */,
+			);
+			name = PokerTrackerTests;
+			productName = PokerTrackerTests;
+			productReference = B639CCA72D093458008FDCE9 /* PokerTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B639CCB02D093458008FDCE9 /* PokerTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B639CCC12D093458008FDCE9 /* Build configuration list for PBXNativeTarget "PokerTrackerUITests" */;
+			buildPhases = (
+				B639CCAD2D093458008FDCE9 /* Sources */,
+				B639CCAE2D093458008FDCE9 /* Frameworks */,
+				B639CCAF2D093458008FDCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B639CCB32D093458008FDCE9 /* PBXTargetDependency */,
+			);
+			name = PokerTrackerUITests;
+			productName = PokerTrackerUITests;
+			productReference = B639CCB12D093458008FDCE9 /* PokerTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B639CC8E2D093455008FDCE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B639CC952D093455008FDCE9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B639CCA62D093458008FDCE9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B639CC952D093455008FDCE9;
+					};
+					B639CCB02D093458008FDCE9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B639CC952D093455008FDCE9;
+					};
+				};
+			};
+			buildConfigurationList = B639CC912D093455008FDCE9 /* Build configuration list for PBXProject "PokerTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B639CC8D2D093455008FDCE9;
+			productRefGroup = B639CC972D093455008FDCE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B639CC952D093455008FDCE9 /* PokerTracker */,
+				B639CCA62D093458008FDCE9 /* PokerTrackerTests */,
+				B639CCB02D093458008FDCE9 /* PokerTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B639CC942D093455008FDCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B639CCA22D093458008FDCE9 /* Preview Assets.xcassets in Resources */,
+				B639CC9E2D093458008FDCE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B639CCA52D093458008FDCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B639CCAF2D093458008FDCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B639CC922D093455008FDCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B639CC9C2D093455008FDCE9 /* ContentView.swift in Sources */,
+				B639CC9A2D093455008FDCE9 /* PokerTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B639CCA32D093458008FDCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B639CCAC2D093458008FDCE9 /* PokerTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B639CCAD2D093458008FDCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B639CCB62D093458008FDCE9 /* PokerTrackerUITests.swift in Sources */,
+				B639CCB82D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B639CCA92D093458008FDCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B639CC952D093455008FDCE9 /* PokerTracker */;
+			targetProxy = B639CCA82D093458008FDCE9 /* PBXContainerItemProxy */;
+		};
+		B639CCB32D093458008FDCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B639CC952D093455008FDCE9 /* PokerTracker */;
+			targetProxy = B639CCB22D093458008FDCE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B639CCB92D093458008FDCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B639CCBA2D093458008FDCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B639CCBC2D093458008FDCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokerTracker/PokerTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PokerTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B639CCBD2D093458008FDCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PokerTracker/PokerTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PokerTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PokerTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B639CCBF2D093458008FDCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PokerTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokerTracker";
+			};
+			name = Debug;
+		};
+		B639CCC02D093458008FDCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PokerTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokerTracker";
+			};
+			name = Release;
+		};
+		B639CCC22D093458008FDCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PokerTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokerTracker;
+			};
+			name = Debug;
+		};
+		B639CCC32D093458008FDCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PokerTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokerTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B639CC912D093455008FDCE9 /* Build configuration list for PBXProject "PokerTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B639CCB92D093458008FDCE9 /* Debug */,
+				B639CCBA2D093458008FDCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B639CCBB2D093458008FDCE9 /* Build configuration list for PBXNativeTarget "PokerTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B639CCBC2D093458008FDCE9 /* Debug */,
+				B639CCBD2D093458008FDCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B639CCBE2D093458008FDCE9 /* Build configuration list for PBXNativeTarget "PokerTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B639CCBF2D093458008FDCE9 /* Debug */,
+				B639CCC02D093458008FDCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B639CCC12D093458008FDCE9 /* Build configuration list for PBXNativeTarget "PokerTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B639CCC22D093458008FDCE9 /* Debug */,
+				B639CCC32D093458008FDCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B639CC8E2D093455008FDCE9 /* Project object */;
+}
