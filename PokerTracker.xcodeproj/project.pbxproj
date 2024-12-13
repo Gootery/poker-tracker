@@ -14,6 +14,13 @@
 		B639CCAC2D093458008FDCE9 /* PokerTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCAB2D093458008FDCE9 /* PokerTrackerTests.swift */; };
 		B639CCB62D093458008FDCE9 /* PokerTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCB52D093458008FDCE9 /* PokerTrackerUITests.swift */; };
 		B639CCB82D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCB72D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift */; };
+		B639CCCA2D0949B8008FDCE9 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCC92D0949B8008FDCE9 /* Date+Format.swift */; };
+		B639CCCE2D0949F7008FDCE9 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCCD2D0949F7008FDCE9 /* SessionViewModel.swift */; };
+		B639CCD02D094A02008FDCE9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCCF2D094A02008FDCE9 /* DashboardView.swift */; };
+		B639CCD42D094A19008FDCE9 /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCD32D094A19008FDCE9 /* AddSessionView.swift */; };
+		B639CCD62D094A25008FDCE9 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCD52D094A25008FDCE9 /* Session.swift */; };
+		B639CCD82D094A85008FDCE9 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639CCD72D094A85008FDCE9 /* PersistenceService.swift */; };
+		B6A17CD12D0968C9001BAF3A /* SessionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A17CD02D0968C9001BAF3A /* SessionsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,15 @@
 		B639CCB12D093458008FDCE9 /* PokerTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B639CCB52D093458008FDCE9 /* PokerTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTrackerUITests.swift; sourceTree = "<group>"; };
 		B639CCB72D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B639CCC92D0949B8008FDCE9 /* Date+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		B639CCCD2D0949F7008FDCE9 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		B639CCCF2D094A02008FDCE9 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B639CCD32D094A19008FDCE9 /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
+		B639CCD52D094A25008FDCE9 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		B639CCD72D094A85008FDCE9 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		B6A17CD02D0968C9001BAF3A /* SessionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsListView.swift; sourceTree = "<group>"; };
+		B6A17CD22D09709D001BAF3A /* IMG_8906.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = IMG_8906.webp; path = ../../../Downloads/IMG_8906.webp; sourceTree = "<group>"; };
+		B6A17CD32D0970C4001BAF3A /* IMG_8906.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_8906.webp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,11 @@
 		B639CC8D2D093455008FDCE9 = {
 			isa = PBXGroup;
 			children = (
+				B639CCC82D09497F008FDCE9 /* Extensions */,
+				B639CCC72D094976008FDCE9 /* Services */,
+				B639CCC62D094970008FDCE9 /* ViewModels */,
+				B639CCC52D094966008FDCE9 /* Views */,
+				B639CCC42D09495E008FDCE9 /* Models */,
 				B639CC982D093455008FDCE9 /* PokerTracker */,
 				B639CCAA2D093458008FDCE9 /* PokerTrackerTests */,
 				B639CCB42D093458008FDCE9 /* PokerTrackerUITests */,
@@ -97,6 +118,7 @@
 			children = (
 				B639CC992D093455008FDCE9 /* PokerTrackerApp.swift */,
 				B639CC9B2D093455008FDCE9 /* ContentView.swift */,
+				B6A17CD22D09709D001BAF3A /* IMG_8906.webp */,
 				B639CC9D2D093458008FDCE9 /* Assets.xcassets */,
 				B639CC9F2D093458008FDCE9 /* PokerTracker.entitlements */,
 				B639CCA02D093458008FDCE9 /* Preview Content */,
@@ -107,6 +129,7 @@
 		B639CCA02D093458008FDCE9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B6A17CD32D0970C4001BAF3A /* IMG_8906.webp */,
 				B639CCA12D093458008FDCE9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -127,6 +150,48 @@
 				B639CCB72D093458008FDCE9 /* PokerTrackerUITestsLaunchTests.swift */,
 			);
 			path = PokerTrackerUITests;
+			sourceTree = "<group>";
+		};
+		B639CCC42D09495E008FDCE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B639CCD52D094A25008FDCE9 /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B639CCC52D094966008FDCE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B639CCCF2D094A02008FDCE9 /* DashboardView.swift */,
+				B639CCD32D094A19008FDCE9 /* AddSessionView.swift */,
+				B6A17CD02D0968C9001BAF3A /* SessionsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B639CCC62D094970008FDCE9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B639CCCD2D0949F7008FDCE9 /* SessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B639CCC72D094976008FDCE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B639CCD72D094A85008FDCE9 /* PersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B639CCC82D09497F008FDCE9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B639CCC92D0949B8008FDCE9 /* Date+Format.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B639CCD62D094A25008FDCE9 /* Session.swift in Sources */,
+				B639CCD82D094A85008FDCE9 /* PersistenceService.swift in Sources */,
+				B639CCCA2D0949B8008FDCE9 /* Date+Format.swift in Sources */,
+				B639CCD42D094A19008FDCE9 /* AddSessionView.swift in Sources */,
+				B639CCCE2D0949F7008FDCE9 /* SessionViewModel.swift in Sources */,
+				B639CCD02D094A02008FDCE9 /* DashboardView.swift in Sources */,
 				B639CC9C2D093455008FDCE9 /* ContentView.swift in Sources */,
+				B6A17CD12D0968C9001BAF3A /* SessionsListView.swift in Sources */,
 				B639CC9A2D093455008FDCE9 /* PokerTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
